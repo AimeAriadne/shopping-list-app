@@ -34,13 +34,18 @@ footer {
   color: #2c3e50;
   text-align: center;
   position:absolute;
-  bottom:0;
-  width:100%;
+  bottom: 0;
+  left: 0;
+  width: 100%;
   height: 3rem;
   display: flex;
   justify-content: space-evenly;
+  align-items: center;
 }
 
+p {
+    margin: 0;
+}
 a {
     text-decoration: none;
     color: rgb(46, 108, 150);
