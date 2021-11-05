@@ -38,8 +38,12 @@ export default {
 
 <style>
 body{
-    background: rgb(223, 239, 247);
-    background-image: url('./assets/background.jpg') ;
+    background-image: url('./assets/background.jpg');
+    background-color: rgba(223, 239, 247, 0.9);
+    background-blend-mode: lighten;
+    min-height: 20rem;
+    margin: 0;
+    
 }
 
 #app {
@@ -47,6 +51,7 @@ body{
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
+  
 }
 
 .container {
@@ -54,7 +59,7 @@ body{
     border-radius: .2rem;
     box-shadow: .2rem .2rem rgba(0, 0, 0, 0.2);
     width: 80%;
-    padding: 1rem;
+    padding: .5rem;
     margin: 0;
     max-width: 30.5rem;
     position: absolute;
@@ -98,8 +103,8 @@ button:disabled {
 
 @media (max-width: 370px) {
   .container{
-    min-width: 18rem;  
+    min-width: 18rem;
+    top: 30%;  
   }
 }
-
 </style>

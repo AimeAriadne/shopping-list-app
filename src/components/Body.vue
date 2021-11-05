@@ -109,8 +109,6 @@ export default {
     font-size: .7rem;
 }
 
-
-
 #wrapper, #priority {
     display: flex;
     align-items: center;
