@@ -80,8 +80,9 @@ button:disabled {
 .btn-new{
   background-color: rgb(142, 189, 221);
   border: none;
-
+  padding: .5rem;
 }
+
 .btn-cancel {
   background-color: rgb(238, 101, 101);
   border: none;
