@@ -1,27 +1,27 @@
 <template>
   <div class="container">
-    <Header 
+    <BaseHeader 
       :editing="editing"
       @do-not-edit="doEdit(false)"
       @do-edit="doEdit(true)" 
       />
 
-    <Body :editing="editing"/>
+    <BaseBody :editing="editing"/>
   </div>
 
-  <Footer />
+  <BaseFooter />
 </template>
 
 <script>
-import Header from './components/Header.vue'
-import Body from './components/Body.vue'
-import Footer from './components/Footer.vue'
+import BaseHeader from './components/BaseHeader.vue'
+import BaseBody from './components/BaseBody.vue'
+import BaseFooter from './components/BaseFooter.vue'
 export default {
   name: 'App',
   components: {
-    Header,
-    Body,
-    Footer
+    BaseHeader,
+    BaseBody,
+    BaseFooter
   },
   data() {
     return {
